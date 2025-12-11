@@ -42,10 +42,6 @@
     pointer-events: none;
     will-change: transform, top, left;
 }
-
-/* --- plus d'inversion automatique ici --- */
-/* Si tu veux inverser uniquement le haut, on peut ajouter une règle .pipe_sprite.top img.bolt_img { transform: rotate(180deg); } */
-
 /* Message / score / bouton */
 .message{
     position: absolute;
