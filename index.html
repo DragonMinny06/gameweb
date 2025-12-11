@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+    <title>Flappy Bird - Éclairs</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="background"></div>
+
+    <!-- Oiseau -->
+    <img src="images/bird_jeu.png" alt="bird" class="bird" id="bird-1">
+
+    <!-- Bouton visible pour tap/clic (utile pour mobiles) -->
+    <button id="flap-button" aria-label="Flap">Flap</button>
+
+    <!-- Message de démarrage / fin -->
+    <div class="message" id="message">
+        Appuyez / Touchez pour commencer <p><span style="color: red">&uarr;</span> contrôle alternatif</p>
+    </div>
+
+    <!-- Score -->
+    <div class="score" aria-live="polite">
+        <span class="score_title"></span>
+        <span class="score_val">0</span>
+    </div>
+</body>
+</html>
