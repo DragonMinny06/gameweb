@@ -21,7 +21,7 @@
     pointer-events: none;
 }
 
-/* Conteneur d'éclair (remplace les tuyaux) */
+/* Conteneur d'éclair*/
 .pipe_sprite{
     position: fixed;
     left: 100vw;
@@ -32,7 +32,7 @@
     width: auto; /* la largeur est automatiquement déterminée par l'image */
 }
 
-/* Image de l'éclair : remplir la hauteur du conteneur (tube) */
+/* Image de l'éclair : remplir la hauteur du conteneur*/
 .pipe_sprite img.bolt_img{
     display: block;
     height: 100%;      /* IMPORTANT : l'image remplit la hauteur du conteneur (pipe height) */
